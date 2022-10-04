@@ -4,10 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello HTML</title>
+    <title>My first web-page</title>
 </head>
 <body>
-    <h1>Hello HTML!!!</h1>
-    <img src="img/jpmorgan_logo_clear.png" alt="JPM logo">
+    <header>
+        <h2>My first web-page</h2>
+    </header>
+    <main>
+        <p>If you're interested in <strong>Python</strong> language, click the image below</p>
+        <a href="https://realpython.com"  target="_blank"><img src="img/realpython-logo.png" width="400px" alt="Real Python logo"></a>
+        <div>
+            <p>Explore <strong>Real Python</strong>:</p>
+            <ul>
+                <li><a href="https://realpython.com/start-here/" target="_blank">Start Here</a></li>
+                <li><a href="https://realpython.com/learning-paths/" target="_blank">Learning Paths</a></li>
+                <li><a href="https://realpython.com/search?kind=article&kind=course&order=newest" target="_blank">Python Tutorials</a></li>
+                <li><a href="https://realpython.com/quizzes/" target="_blank">Quizzes</a></li>
+                <li><a href="https://realpython.com/tutorials/all/" target="_blank">Browes Topics</a></li>
+                <li><a href="https://realpython.com/community/" target="_blank">Community Chat</a></li>
+                <li><a href="https://realpython.com/office-hours/" target="_blank">Office Hours</a></li>
+                <li><a href="https://realpython.com/podcasts/rpp/" target="_blank">Podcast</a></li>
+                <li><a href="https://realpython.com/products/books/" target="_blank">Books</a></li>
+            </ul>
+            <p>The most popular <strong>Real Python</strong> YouTube video - <a href="https://youtu.be/-_z2RPAH0Qk" target="_blank">Python GUI Development With PySimpleGUI</a>:</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/-_z2RPAH0Qk" title="Python GUI Development With PySimpleGUI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>Choose the following options for your subscription:</p>
+            <form action="#">
+                <label><input type="checkbox" name="topics" checked> Tutorials</label>
+                <label><input type="checkbox" name="topics" checked> Learning Paths</label>
+                <label><input type="checkbox" name="topics" checked> Quizzes</label>
+                <label><input type="checkbox" name="topics" checked> Podcast</label>
+                <label><input type="checkbox" name="topics" checked> Books</label>
+                <label><input type="checkbox" name="topics" checked> Articles</label><br>
+                <label><input type="radio" name="frequency" checked> Once per day</label>
+                <label><input type="radio" name="frequency" checked> Once per week</label>
+                <label><input type="radio" name="frequency" checked> Once per month</label><br>
+                <input type="text" placeholder="Your Email Address" required>
+                <button type="submit">Sign Me Up</button>
+                <p><font size="1">No spam, we promise. We'll neber share your details without  your permition.</font></p>
+            </form>
+        </div>
+    </main>
 </body>
 </html>
